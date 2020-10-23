@@ -1,11 +1,11 @@
 # optimize_model
 本项目主要功能是自动完成特征选择与参数调试，用于优化随机森林模型。
 
-##运行
+## 运行  
 Python2.7，需要的依赖库，直接pip安装即可  
 运行命令：python ./rf.py   
 
-##过程
+## 过程  
 主要分为两步:一是自动特征选择；二是自动调试参数。  
 **自动特征选择**  
 1.程序直接从csv文件夹中读取original_data.csv  
@@ -26,7 +26,7 @@ Python2.7，需要的依赖库，直接pip安装即可
 提供手动调参函数：manually_debugging_options()  
 在141行手动更改各项参数即可  
   
-##截图  
+## 截图  
 1.基于不同特征子集的模型迭代过程及局部最优结果输出：     
 ![feature selection process](https://github.com/NewBee119/optimize_model/tree/main/img/fs.jpg "特征选择")      
   
@@ -36,7 +36,7 @@ Python2.7，需要的依赖库，直接pip安装即可
 3.输出自动调参过程：  
 ![debugging options](https://github.com/NewBee119/optimize_model/tree/main/img/dp.jpg "自动调参")    
 
-##说明  
+## 说明   
 本文的特征文件来自于文献[1]中检测恶意TLS流的部分研究:    
 [1] Two-layer detection framework with a high accuracy and efficiency for a malware family over the TLS protocol    
 访问链接：https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0232696
