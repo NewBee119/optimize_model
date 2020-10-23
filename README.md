@@ -28,13 +28,13 @@ Python2.7，需要的依赖库，直接pip安装即可
   
 ## 截图  
 1.基于不同特征子集的模型迭代过程及局部最优结果输出：     
-![feature selection process](https://github.com/NewBee119/optimize_model/tree/main/img/fs.jpg "特征选择")      
+![image](https://github.com/NewBee119/optimize_model/tree/main/img/fs.jpg)      
   
 2.输出降序的特征重要性：   
-![feature improtance](https://github.com/NewBee119/optimize_model/tree/main/img/fi.jpg "特征重要性")    
+![image](https://github.com/NewBee119/optimize_model/tree/main/img/fi.jpg)    
   
 3.输出自动调参过程：  
-![debugging options](https://github.com/NewBee119/optimize_model/tree/main/img/dp.jpg "自动调参")    
+![image](https://github.com/NewBee119/optimize_model/tree/main/img/dp.jpg)    
 
 ## 说明   
 本文的特征文件来自于文献[1]中检测恶意TLS流的部分研究:    
