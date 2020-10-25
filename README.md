@@ -36,14 +36,14 @@ Python2.7，需要的依赖库，直接pip安装即可
 3.输出自动调参过程：  
 ![image](https://github.com/NewBee119/optimize_model/blob/main/img/dp.jpg)    
 
-## 说明   
-本文的特征文件来自于文献[1]中检测恶意TLS流的部分研究:    
-[1] Two-layer detection framework with a high accuracy and efficiency for a malware family over the TLS protocol    
+## 说明  
+本文的特征文件来自于文献[1]中检测恶意TLS流的部分研究:  
+[1] Two-layer detection framework with a high accuracy and efficiency for a malware family over the TLS protocol  
 访问链接：https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0232696  
-调参参考这篇技术贴：  
-访问链接：https://www.cnblogs.com/jasonfreak/p/5720137.html    
+调参参考这篇技术贴:  
+访问链接：https://www.cnblogs.com/jasonfreak/p/5720137.html  
 **经验总结**  
-1. 相比于调参，特征选择的过程更重要；    
+1. 相比于调参，特征选择的过程更重要；  
 2. 采用贪心法自动调参，结果可能还比不上默认参数；  
 3. 手动调参，可以辅助确认更优的参数组合。  
 **下一步**  
